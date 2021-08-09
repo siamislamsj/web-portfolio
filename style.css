@@ -1,11 +1,17 @@
 body{
+  margin: 0;
   font-family: 'Barlow', sans-serif;
 }
 h1{
   font-size: 50px;
+  
+}
+.h2{
+  font-size: 40px;
 }
 .name-highlight{
   color:rgb(150, 207, 17);
+  
 }
 .intro{
   width: 40%;
@@ -17,4 +23,28 @@ h1{
 
   width: 100%;
   height: 600px;
+  border-radius: 30px;
+}
+.top{
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat ;
+}
+section{
+  height: 500px;
+  padding-bottom: 200px;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(223, 137, 94), rgb(230, 215, 87)) ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: bold;
+  margin-left: 50px;
+
+}
+.mid{
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
